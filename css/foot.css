@@ -1,0 +1,37 @@
+
+        .contain {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .col {
+            width: 200px;
+            height: 300px;
+            border: 2px solid palevioletred;
+            margin: 20px;
+        }
+
+        #col-1 {
+            width: 400px;
+        }
+
+        .link {
+            background: white none repeat scroll 0 0;
+            position: relative;
+            z-index: 100;
+            box-shadow: 0 0 10px #cccccc;
+            display: inline-block;
+            font-size: 20px;
+            height: 50px;
+            line-height: 50px;
+            width: 50px;
+            border-radius: 50%;
+        }
+
+        .fac:hover,
+        .linkedin:hover {
+            cursor: pointer;
+        }
+ 
